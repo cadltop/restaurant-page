@@ -1,8 +1,12 @@
-img {
-    width: 100vw;
-    height: auto;
+/*image source: https://www.opentable.com/blog/coziest-restaurants-united-states-canada/ */
+#container {
+    background-image: url(../images/restaurant-main.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .text-container {
     color: white;
+    text-align: center;
 }
