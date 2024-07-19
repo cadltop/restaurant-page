@@ -2,14 +2,40 @@
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Regular.ttf);
 }
-:root {
+* {
     font-family: 'Roboto', sans-serif ;
+    color: white;
+}
+header {
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #362311ea;
+}
+nav {
+    width: fit-content;
+    height: 75px;
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+}
+
+header button {
+    border: #00000000;
+    background-color: #523519ea;
+    padding: 10px;
+    width: 115px;
+    font-size: 20px;
+    font-weight: bold;
 }
 #container {
     /*image source: https://www.opentable.com/blog/coziest-restaurants-united-states-canada/ */
     background-image: linear-gradient(90deg, #00000080, #00000080), url(../images/restaurant-main.jpg);
-    background-size: 100% auto, 100% auto;
+    background-size: 100% 100%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,7 +43,6 @@
 }
 .text-container > * {
     margin: 0 0;
-    color: white;
     text-align: center;
 }
 
