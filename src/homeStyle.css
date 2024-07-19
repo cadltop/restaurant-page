@@ -1,0 +1,12 @@
+.text-container > * {
+    margin: 0 0;
+    text-align: center;
+}
+
+.text-container h1 {
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+.text-container p {
+    font-size: 25px;
+}
