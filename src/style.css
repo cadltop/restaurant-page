@@ -1,5 +1,12 @@
-/*image source: https://www.opentable.com/blog/coziest-restaurants-united-states-canada/ */
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+:root {
+    font-family: 'Roboto', sans-serif ;
+}
 #container {
+    /*image source: https://www.opentable.com/blog/coziest-restaurants-united-states-canada/ */
     background-image: linear-gradient(90deg, #00000080, #00000080), url(../images/restaurant-main.jpg);
     background-size: 100% auto, 100% auto;
     background-repeat: no-repeat, no-repeat;
