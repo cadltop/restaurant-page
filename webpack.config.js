@@ -9,10 +9,11 @@ module.exports = {
   },
   mode: 'production',
   module: {
-      rules: {
+      rules: [
+        {
         test: /\.css$/,
         use: [{ loader: 'style-loader' }, { loader: 'css-loader' }]
-    }
+    }]
   },
   plugins: [new HtmlWebpackPlugin({
     title: 'Restaurant page',
