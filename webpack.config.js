@@ -8,6 +8,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   mode: 'production',
+  module: {
+      rules: {
+        test: /\.css$/,
+        use: [{ loader: 'style-loader' }, { loader: 'css-loader' }]
+    }
+  },
   plugins: [new HtmlWebpackPlugin({
     title: 'Restaurant page',
     template: 'src/index.html'
