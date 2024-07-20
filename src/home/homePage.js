@@ -12,8 +12,8 @@ const loadHome = function() {
     const description = document.createElement('p');
     description.innerHTML = 'When friends share a meal together, the atmosphere becomes electric, <br> ' +
                 'and the conversation flows as easily as the wine we recommend. <br>' +
-                'The aromas of our freshly baked bread and slow-cooked sauces mingle with <br> ' +
-                'the laughter and chatter, creating an unforgettable experience that leaves a lasting impression.';
+                'The aromas of our freshly baked bread and slow-cooked sauces <br>mingle with ' +
+                'the laughter and chatter, creating an unforgettable <br>experience that leaves a lasting impression.';
     textContainer.appendChild(headline);
     textContainer.appendChild(description);
     container.appendChild(textContainer);
