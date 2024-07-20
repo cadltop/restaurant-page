@@ -47,8 +47,23 @@ const loadAbout = function() {
         textWrap.appendChild(emailLine);
     })();
 
+    const locationTitle = document.createElement('h2');
+    locationTitle.innerHTML = 'Location';
+    
+    const locationInfo = document.createElement('p');
+    locationInfo.classList.add('location');
+
+    const locationIcon = document.createElement('img');
+    locationIcon.src = '../images/map-marker.svg';
+    locationIcon.alt = 'Location Icon';
+    locationInfo.appendChild(locationIcon);
+    
+    locationInfo.append('Panama, Panama');
+
     content.appendChild(headline);
     content.appendChild(textWrap);
+    content.appendChild(locationTitle);
+    content.appendChild(locationInfo);
     container.appendChild(content);
 }
 
