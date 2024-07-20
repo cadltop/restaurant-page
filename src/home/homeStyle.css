@@ -19,9 +19,15 @@
     font-size: 50px;
     margin-bottom: 24px;
 }
+
+.text-container h2 {
+    font-size: 37px;
+    margin-bottom: 24px;
+}
 .text-container p {
     font-size: 25px;
     background-color: #9e5b1c;
     padding: 20px 20px;
     border-radius: 25px;
+    margin-bottom: 36px;
 }
