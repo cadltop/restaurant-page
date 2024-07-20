@@ -1,3 +1,15 @@
+.text-container {
+    background-color: #704013;
+    min-width: calc(100vw / 2);
+    min-height: calc(100vh / 1.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 20px 20px;
+}
+
 .text-container > * {
     margin: 0 0;
     text-align: center;
@@ -5,8 +17,11 @@
 
 .text-container h1 {
     font-size: 50px;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 }
 .text-container p {
     font-size: 25px;
+    background-color: #9e5b1c;
+    padding: 20px 20px;
+    border-radius: 25px;
 }
