@@ -1,8 +1,8 @@
 import 'normalize.css';
-import './style.css';
+import './index.css';
 
-import {loadHome} from './homePage.js';
-import {loadAbout} from './aboutPage.js';
+import {loadHome} from './home/homePage.js';
+import {loadAbout} from './about/aboutPage.js';
 
 loadHome();
 
