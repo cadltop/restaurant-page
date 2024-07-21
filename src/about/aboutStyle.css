@@ -9,10 +9,10 @@
     border-radius: 25px;
     padding: 20px 20px;
 }
-.content > * {
+.content > *, .contact-info p {
     margin: 0 0;
 }
-.content .text-wrap, .location {
+.contact-info, .location {
     background-color: #9e5b1c;
     padding: 20px 20px;
     border-radius: 25px;

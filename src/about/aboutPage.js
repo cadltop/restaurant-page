@@ -6,12 +6,11 @@ const loadAbout = function() {
     const content = document.createElement('div');
     content.classList.add('content');
     
-    const headline = document.createElement('h1');
-    headline.innerHTML = 'Contact Us';
+    const contactTitle = document.createElement('h1');
+    contactTitle.innerHTML = 'Contact Us';
     
-
-    const textWrap = document.createElement('div');
-    textWrap.classList.add('text-wrap');
+    const contactInfo = document.createElement('div');
+    contactInfo.classList.add('contact-info');
 
     (function phoneNumber() {
         const phoneLine = document.createElement('p');
@@ -27,7 +26,7 @@ const loadAbout = function() {
         phoneLine.appendChild(phoneLineSpan);
         
         phoneLine.append('6666-6666');
-        textWrap.appendChild(phoneLine);
+        contactInfo.appendChild(phoneLine);
     })();
 
     (function emailAdress() {
@@ -44,7 +43,7 @@ const loadAbout = function() {
         emailLine.appendChild(emailLineSpan);
 
         emailLine.append('restaurant.page@email.com');
-        textWrap.appendChild(emailLine);
+        contactInfo.appendChild(emailLine);
     })();
 
     const locationTitle = document.createElement('h2');
@@ -60,8 +59,8 @@ const loadAbout = function() {
     
     locationInfo.append('Panama, Panama');
 
-    content.appendChild(headline);
-    content.appendChild(textWrap);
+    content.appendChild(contactTitle);
+    content.appendChild(contactInfo);
     content.appendChild(locationTitle);
     content.appendChild(locationInfo);
     container.appendChild(content);
