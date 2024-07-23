@@ -17,7 +17,7 @@ const loadAbout = function() {
         phoneLine.classList.add('phone');
 
         const phoneIcon = document.createElement('img');
-        phoneIcon.src = '../images/cellphone.svg';
+        phoneIcon.src = '../images/icons/cellphone.svg';
         phoneIcon.alt = 'Cellphone Icon';
         phoneLine.appendChild(phoneIcon);
 
@@ -34,7 +34,7 @@ const loadAbout = function() {
         emailLine.classList.add('email');
 
         const emailIcon = document.createElement('img');
-        emailIcon.src = '../images/email.svg';
+        emailIcon.src = '../images/icons/email.svg';
         emailIcon.alt = 'Email Icon';
         emailLine.appendChild(emailIcon);
 
@@ -53,7 +53,7 @@ const loadAbout = function() {
     locationInfo.classList.add('location');
 
     const locationIcon = document.createElement('img');
-    locationIcon.src = '../images/map-marker.svg';
+    locationIcon.src = '../images/icons/map-marker.svg';
     locationIcon.alt = 'Location Icon';
     locationInfo.appendChild(locationIcon);
     
