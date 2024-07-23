@@ -1,16 +1,14 @@
-.contact-info p {
-    margin: 0 0;
-}
-.contact-info, .location {
+#container .contact-info, #container .location {
+    font-size: 25px;
     background-color: #9e5b1c;
     padding: 20px 20px;
     border-radius: 25px;
     margin-bottom: 36px;
 }
-.content p span {
+#container p span {
     font-weight: bold;
 }
-.content p img {
+#container p img {
     height: 35px;
     width: auto;
     vertical-align: middle;

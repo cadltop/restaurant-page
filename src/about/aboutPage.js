@@ -2,9 +2,6 @@ import './aboutStyle.css';
 
 const loadAbout = function() {
     const container = document.querySelector('#container');
-
-    const content = document.createElement('div');
-    content.classList.add('content');
     
     const contactTitle = document.createElement('h1');
     contactTitle.innerHTML = 'Contact Us';
@@ -59,11 +56,10 @@ const loadAbout = function() {
     
     locationInfo.append('Panama, Panama');
 
-    content.appendChild(contactTitle);
-    content.appendChild(contactInfo);
-    content.appendChild(locationTitle);
-    content.appendChild(locationInfo);
-    container.appendChild(content);
+    container.appendChild(contactTitle);
+    container.appendChild(contactInfo);
+    container.appendChild(locationTitle);
+    container.appendChild(locationInfo);
 }
 
 export {loadAbout};

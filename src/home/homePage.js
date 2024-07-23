@@ -1,8 +1,5 @@
 const loadHome = function() {
-    const container = document.querySelector('#container');;
-    
-    const content = document.createElement('div');
-    content.classList.add('content');
+    const container = document.querySelector('#container');
     
     const restaurantTitle = document.createElement('h1');
     restaurantTitle.innerHTML = 'Restaurant Page';
@@ -19,12 +16,10 @@ const loadHome = function() {
     const scheduleInfo = document.createElement('p');
     scheduleInfo.innerHTML = 'Monday to Saturday, 8AM - 9PM';
 
-    content.appendChild(restaurantTitle);
-    content.appendChild(restaurantInfo);
-    content.appendChild(scheduleTitle);
-    content.appendChild(scheduleInfo);
-
-    container.appendChild(content);
+    container.appendChild(restaurantTitle);
+    container.appendChild(restaurantInfo);
+    container.appendChild(scheduleTitle);
+    container.appendChild(scheduleInfo);
 };
 
 export {loadHome};
