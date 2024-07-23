@@ -7,7 +7,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  mode: 'production',
+  mode: 'development',
   module: {
       rules: [
         {
@@ -15,6 +15,7 @@ module.exports = {
         use: [{ loader: 'style-loader' }, { loader: 'css-loader' }]
     }]
   },
+  devtool: 'inline-source-map',
   plugins: [new HtmlWebpackPlugin({
     title: 'Restaurant page',
     template: 'src/index.html'
