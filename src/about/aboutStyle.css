@@ -1,4 +1,4 @@
-.content > *, .contact-info p {
+.contact-info p {
     margin: 0 0;
 }
 .contact-info, .location {
@@ -7,14 +7,6 @@
     border-radius: 25px;
     margin-bottom: 36px;
 }
-.content h1 {
-    font-size: 50px;
-    margin-bottom: 24px;
-}
-.content p {
-    font-size: 25px;
-    display: block;
-}
 .content p span {
     font-weight: bold;
 }
@@ -22,8 +14,4 @@
     height: 35px;
     width: auto;
     vertical-align: middle;
-}
-.content h2 {
-    font-size: 37px;
-    margin-bottom: 24px;
 }

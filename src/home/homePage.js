@@ -1,5 +1,3 @@
-import './homeStyle.css';
-
 const loadHome = function() {
     const container = document.querySelector('#container');;
     

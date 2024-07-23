@@ -52,3 +52,22 @@ header button {
     border-radius: 25px;
     padding: 20px 20px;
 }
+.content > * {
+    margin: 0 0;
+    text-align: center;
+}
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+.content h2 {
+    font-size: 37px;
+    margin-bottom: 24px;
+}
+.content p {
+    font-size: 25px;
+    background-color: #9e5b1c;
+    padding: 20px 20px;
+    border-radius: 25px;
+    margin-bottom: 36px;
+}
