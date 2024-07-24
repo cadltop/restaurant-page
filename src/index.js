@@ -3,6 +3,7 @@ import './index.css';
 
 import {loadHome} from './home/homePage.js';
 import {loadAbout} from './about/aboutPage.js';
+import {loadMenu} from './menu/menuPage.js';
 
 loadHome();
 
@@ -20,4 +21,8 @@ document.querySelector('button#home').addEventListener('click', () => {
 document.querySelector('button#about').addEventListener('click', () => {
     emptyContainer();
     loadAbout();
+});
+document.querySelector('button#menu').addEventListener('click', () => {
+    emptyContainer();
+    loadMenu();
 });
