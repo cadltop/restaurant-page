@@ -5,24 +5,37 @@ import {loadHome} from './home/homePage.js';
 import {loadAbout} from './about/aboutPage.js';
 import {loadMenu} from './menu/menuPage.js';
 
-loadHome();
-
 const container = document.querySelector('#container');
 function emptyContainer() {
     while(container.firstChild) {
         container.removeChild(container.firstChild);
     }
 }
+const homeButton = document.querySelector('button#home');
+const aboutButton = document.querySelector('button#about');
+const menuButton = document.querySelector('button#menu');
 
-document.querySelector('button#home').addEventListener('click', () => {
+homeButton.addEventListener('click', () => {
+    homeButton.style = 'background-color: #9e5b1c;';
+    aboutButton.style = 'background-color: #523519ea;';
+    menuButton.style = 'background-color: #523519ea;';
     emptyContainer();
     loadHome();
 });
-document.querySelector('button#about').addEventListener('click', () => {
+aboutButton.addEventListener('click', () => {
+    aboutButton.style = 'background-color: #9e5b1c;';
+    homeButton.style = 'background-color: #523519ea;';
+    menuButton.style = 'background-color: #523519ea;';
     emptyContainer();
     loadAbout();
 });
-document.querySelector('button#menu').addEventListener('click', () => {
+menuButton.addEventListener('click', () => {
+    menuButton.style = 'background-color: #9e5b1c;';
+    homeButton.style = 'background-color: #523519ea;';
+    aboutButton.style = 'background-color: #523519ea;';
     emptyContainer();
     loadMenu();
 });
+
+loadHome();
+homeButton.style = 'background-color: #9e5b1c;';
